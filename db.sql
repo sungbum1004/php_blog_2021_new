@@ -1,7 +1,7 @@
 # DB 생성
-DROP DATABASE IF EXISTS st__2021_04_full__site13;
-CREATE DATABASE st__2021_04_full__site13;
-USE st__2021_04_full__site13;
+DROP DATABASE IF EXISTS php_blog_2021;
+CREATE DATABASE php_blog_2021;
+USE php_blog_2021;
 
 # 게시물 테이블 생성
 CREATE TABLE article (
