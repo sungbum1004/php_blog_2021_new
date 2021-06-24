@@ -32,18 +32,13 @@ $loginedMember = $_REQUEST['App__loginedMember'];
     <link rel="stylesheet" href="/resource/common.css">
 
     <?php if ($envCode == 'prod') { ?>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-94LNZ8CK0K"></script>
+         <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZNXX3J5N1S"></script>
         <script>
-            window.dataLayer = window.dataLayer || [];
-
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-
-            gtag('js', new Date());
-
-            gtag('config', 'G-94LNZ8CK0K');
+          window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZNXX3J5N1S');
         </script>
     <?php } ?>
 
@@ -52,11 +47,11 @@ $loginedMember = $_REQUEST['App__loginedMember'];
 </head>
 <body>
 <div class="site-wrap min-h-screen flex flex-col pt-10">
-    <header class="top-bar fixed top-0 inset-x-0 bg-black text-white h-10">
+    <header class="top-bar fixed top-0 inset-x-0 text-white h-10">
         <div class="container mx-auto h-full flex">
             <a href="/" class="top-bar__logo px-5 flex items-center">
                 <span><i class="fas fa-lemon"></i></span>
-                <span class="ml-2 font-bold hidden sm:inline">LEMON BLOG</span>
+                <span class="ml-2 font-bold hidden sm:inline">JSB BLOG</span>
             </a>
 
             <div class="flex-grow"></div>
